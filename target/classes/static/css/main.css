@@ -1,0 +1,334 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+/* navigation bar */
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding: 0 0 50px;
+    position: relative;
+}
+.main_nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #2b2d42;
+    margin: 0;
+}
+.icon_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.icon_bar a {
+    text-align: center;
+    padding: 20px 30px;
+    color: #edf2f4;
+    text-decoration: none;
+}
+.icon_bar a:hover {
+    color: #8d99ae;
+    text-decoration: none;
+}
+.icon_bar a:active {
+    color: #8d99ae;
+    text-decoration: none;
+}
+.icon_bar .fa-solid:hover {
+    color: #8d99ae;
+}
+.icon_bar .fa-solid:active {
+    color: #8d99ae;
+}
+.nav_icon {
+    font-size: 25pt;
+    color: #edf2f4;
+}
+.nav_text {
+    padding-top: 10px !important;
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+}
+/* footer */
+footer {
+    background-color: #8d99ae;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px 0;
+    color: #2b2d42 !important;
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+footer a {
+    color: #2b2d42 !important;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #edf2f4 !important;
+    text-decoration: none !important;
+}
+
+/* login page */
+.login_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.login_icon {
+    font-size: 100pt;
+    color: #8d99ae;
+    padding-bottom: 30px;
+}
+.btn {
+    background-color: #2b2d42 !important;
+    color: #edf2f4 !important;
+    border:none !important;
+    width: 100px !important;
+}
+.btn:hover {
+    background-color: #8d99ae !important;
+    color: #2b2d42 !important;
+}
+.nav_icon_login {
+    color: #2b2d42;
+}
+.nav_icon_login .fa-solid:hover {
+    color: #2b2d42 !important;
+}
+img {
+    height: 70px;
+}
+
+/* homepage */
+.welcome {
+    padding-top: 30px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.welcome h1 {
+    font-size: 35pt;
+    font-family: "Handlee", cursive;
+}
+.latest_three h2 {
+    font-family: "Handlee", cursive;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.three {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.three figure {
+    text-align: center;
+    max-width: 200px;
+}
+figcaption {
+    padding-top: 10px;
+    font-size: 18pt !important;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+figure .date {
+    padding-top: 10px;
+    font-size: 12pt !important;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal !important;
+}
+
+/* all blogs */
+.all_blogs {
+    padding-top: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+.all_blogs h1 {
+    font-family: Helvetica, sans-serif;
+}
+.all_blogs hr {
+    max-width: 250px;
+    padding-bottom: 30px;
+}
+.blogs_list table {
+    max-width: 500px;
+    margin: auto;
+}
+.all_blogs_headers {
+    text-align: center;
+    font-size: 15pt;
+    font-family: Helvetica, sans-serif;
+}
+.all_blogs_tags {
+    position: absolute;
+}
+.all_blogs_tags table {
+    max-width: 200px;
+    margin: auto;
+}
+.tags_header {
+    text-align: center;
+    font-size: 12pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* admin dashboard */
+.dash_headers {
+    text-align: center;
+    font-size: 15pt;
+    font-family: Helvetica, sans-serif;
+}
+.dash_blogs_list table {
+    max-width: 900px;
+    margin: auto;
+}
+.dash_circle {
+    font-size: 50pt;
+    color: #8d99ae;
+}
+.dash_text {
+    padding-top: 10px !important;
+    font-family: Helvetica, sans-serif;
+    font-size: 16pt;
+    padding-bottom: 10px;
+    color: black;
+}
+.dash_icon {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin: auto;
+}
+.dash_tags table {
+    max-width: 200px;
+    margin: auto;
+}
+.dash_left_content {
+    margin-top: -110px;
+    margin-right: 130px;
+}
+.dash_tags .btn {
+    width: 120px !important;
+    margin-top: 50px !important;
+}
+.dash_flex {
+    display: flex;
+}
+.all_blogs_dash {
+    padding-top: 30px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.all_blogs_dash hr {
+    max-width: 500px
+}
+
+/* create blog */
+.container {
+    padding-top: 30px;
+    max-width: 800px;
+}
+.container .btn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container form {
+    max-width: 800px;
+}
+.container h1 {
+    font-family: Helvetica, sans-serif;
+}
+.create_blog {
+    max-width: 700px !important;
+    align-items: center;
+    align-content: center;
+}
+.row {
+    margin: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.create_blog_addTag {
+    padding-top: 30px;
+    font-size: 12pt;
+    text-align: left;
+}
+.title_field {
+    font-size: 12pt;
+    text-align: left;
+}
+.tag_boxes ul {
+    list-style-type: none;
+}
+#checkbox_div {
+    padding-top: 25px;
+}
+
+/* read single blog post */
+.single_title {
+    padding-bottom: 30px;
+}
+.back_btn {
+    width: 120px !important;
+}
+#blogTitle {
+    font-family: "Handlee", cursive;
+    padding: 0;
+}
+#tags {
+    font-size: 16pt;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#date_read {
+    font-size: 12pt;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.blogs-section {
+    max-width: 600px !important;
+    margin: auto;
+}
+
+/* create tags */
+.create_tag_block {
+    padding-bottom: 50px;
+}
+.container .create_tag_block {
+    max-width: 600px;
+    margin: auto;
+}
+.display_tags_block {
+    max-width: 700px;
+    margin: auto;
+}
+.btn_back {
+    width: 150px !important;
+}
+
+/* tiny ex*/
+.tiny_btn {
+    margin: auto;
+    background-color: #2b2d42 !important;
+    color: #edf2f4 !important;
+    border:none !important;
+    width: 150px !important;
+}
